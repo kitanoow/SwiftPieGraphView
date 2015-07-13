@@ -77,6 +77,9 @@ class PieGraphView: UIView {
 
             CGContextMoveToPoint(context, x, y);
             CGContextAddArc(context, x, y, radius,  start_angle, end_angle, 0);
+            //
+            //If you comment out this line , the graph will be to fill all .
+            //
             CGContextAddArc(context, x, y, radius/2,  end_angle, start_angle, 1);
             CGContextSetFillColor(context, CGColorGetComponents(color.CGColor));
             CGContextClosePath(context);
