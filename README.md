@@ -1,4 +1,4 @@
 # SwiftPieGraphView
 PieGraph View using swift
 
-![グラフ1](http://oneworld2.sakura.ne.jp/blog/graph3.gif)
+![graph1](http://oneworld2.sakura.ne.jp/blog/gif3_2.gif)
